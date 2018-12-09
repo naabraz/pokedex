@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome component test Should render component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f6bd20",
+        "display": "flex",
+        "height": "100%",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 36,
+        },
+      ]
+    }
+  >
+    Pokedex
+  </Text>
+</View>
+`;
