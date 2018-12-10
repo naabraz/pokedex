@@ -11,7 +11,7 @@ describe('Welcome component test', () => {
     expect(welcome).toMatchSnapshot()
   })
 
-  it('Should shallow', () => {
+  it('Should render welcome title', () => {
     const wrapper = shallow(<Welcome />)
     expect(wrapper.find(WelcomeText).children().text()).toEqual('Pokédex')
   })
