@@ -7,7 +7,7 @@ class Welcome extends Component{
     return (
       <WelcomeView>
         <WelcomeText>
-          Pokedex
+          Pokédex
         </WelcomeText>
       </WelcomeView>
     )

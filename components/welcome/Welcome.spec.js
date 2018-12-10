@@ -1,9 +1,9 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-
 import { shallow } from 'enzyme'
 
 import Welcome from './Welcome'
+import { WelcomeText } from './style/index'
 
 describe('Welcome component test', () => {
   it('Should render component correctly', () => {
@@ -13,5 +13,6 @@ describe('Welcome component test', () => {
 
   it('Should shallow', () => {
     const wrapper = shallow(<Welcome />)
+    expect(wrapper.find(WelcomeText).children().text()).toEqual('Pokédex')
   })
 })
