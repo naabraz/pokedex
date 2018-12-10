@@ -6,7 +6,7 @@ A Pokédex app built with [React Native](https://facebook.github.io/react-native
 
 Run `yarn` or `npm install` to install all dependencies.
 
-Create a file named .local_properties with the content: `sdk.dir = /Users/${user}/Library/Android/sdk` to set the Android emulator
+Create inside `android` folder a file named local.properties with the content: `sdk.dir = /Users/${user}/Library/Android/sdk` to set the Android emulator
 
 Run `ios` to simulate IOS App and `android` to simulate Android app.
 
