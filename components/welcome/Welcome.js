@@ -1,17 +1,13 @@
-import React, {Component} from 'react'
+import React from 'react';
 
-import {WelcomeView, WelcomeText} from './style'
+import { WelcomeView, WelcomeText } from './style';
 
-class Welcome extends Component{
-  render() {
-    return (
-      <WelcomeView>
-        <WelcomeText>
-          Pokédex
-        </WelcomeText>
-      </WelcomeView>
-    )
-  }
-}
+const Welcome = () => (
+  <WelcomeView>
+    <WelcomeText>
+      Pokédex
+    </WelcomeText>
+  </WelcomeView>
+);
 
-export default Welcome
+export default Welcome;
