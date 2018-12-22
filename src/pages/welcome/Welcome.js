@@ -1,17 +1,17 @@
 import React from 'react'
 
+import Wrapper from '../../components/Wrapper'
 import * as string from './strings'
 import {
-  WelcomeView,
   WelcomeText
 } from './style'
 
 const Welcome = () => (
-  <WelcomeView>
+  <Wrapper>
     <WelcomeText>
       {string.WelcomeTitle}
     </WelcomeText>
-  </WelcomeView>
+  </Wrapper>
 )
 
 export default Welcome

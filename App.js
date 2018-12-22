@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Welcome from './src/components/welcome'
+import Welcome from './src/pages/welcome'
 
 const App = () => (<Welcome />)
 
