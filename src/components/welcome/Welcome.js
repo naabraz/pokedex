@@ -1,13 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-import { WelcomeView, WelcomeText } from './style';
+import * as string from './strings'
+import {
+  WelcomeView,
+  WelcomeText
+} from './style'
 
 const Welcome = () => (
   <WelcomeView>
     <WelcomeText>
-      Pokédex
+      {string.WelcomeTitle}
     </WelcomeText>
   </WelcomeView>
-);
+)
 
-export default Welcome;
+export default Welcome
