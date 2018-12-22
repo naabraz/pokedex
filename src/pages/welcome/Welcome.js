@@ -1,16 +1,19 @@
 import React from 'react'
 
 import Wrapper from '../../components/Wrapper'
+import SpringAnimatedView from '../../components/SpringAnimatedView'
 import * as string from './strings'
 import {
-  WelcomeText
+  WelcomeText,
 } from './style'
 
 const Welcome = () => (
   <Wrapper>
-    <WelcomeText>
-      {string.WelcomeTitle}
-    </WelcomeText>
+    <SpringAnimatedView>
+      <WelcomeText>
+        {string.WelcomeTitle}
+      </WelcomeText>
+    </SpringAnimatedView>
   </Wrapper>
 )
 

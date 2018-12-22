@@ -1,7 +1,11 @@
 {
   "extends": ["standard", "standard-react"],
+  "parser": "babel-eslint",
   "env": {
     "jest": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"]
   },
   "settings": {
     "import/core-modules": [
