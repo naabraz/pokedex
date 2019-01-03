@@ -13,3 +13,12 @@ export const WelcomeView = styled.View`
 export const WelcomeText = styled.Text`
   font-size: 36
 `
+
+export const GoToRegionsButton = styled.TouchableOpacity`
+  margin-top: 50
+  align-items: center
+`
+
+export const GoToRegionsLabel = styled.Text`
+  font-size: 18
+`
