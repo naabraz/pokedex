@@ -12,8 +12,8 @@ function receiveRegions (regions) {
 export function handleReceiveRegions () {
   return (dispatch) => {
     fetchRegions()
-      .then((regions) => {
-        dispatch(receiveRegions(regions))
+      .then(({ results }) => {
+        dispatch(receiveRegions(results))
       })
   }
 }
