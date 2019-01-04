@@ -1,11 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { WrapperView } from './style'
+import {
+  WrapperView,
+  ContentView,
+} from './style'
 
 const Wrapper = props => (
   <WrapperView>
-    {props.children}
+    <ContentView>
+      {props.children}
+    </ContentView>
   </WrapperView>
 )
 

@@ -7,7 +7,7 @@ import {
   RegionName,
   RegionIcon,
 } from '../style'
-import { pokeball } from 'assets/icons'
+import { map } from 'assets/icons'
 
 const Regions = (props) => {
   const { regions } = props
@@ -17,7 +17,7 @@ const Regions = (props) => {
         data={regions}
         renderItem={({ item }) =>
           <RegionName>
-            <RegionIcon source={pokeball} />
+            <RegionIcon source={map} />
             {item.name}
           </RegionName>}
         keyExtractor={({ name }) => name} />

@@ -9,4 +9,5 @@ export const RegionName = styled.Text`
 export const RegionIcon = styled.Image`
   width: 32
   height: 32
+  align-items: center
 `

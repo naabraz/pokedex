@@ -17,3 +17,4 @@ Run `ios` to simulate IOS App and `android` to simulate Android app.
 
 ## Credits
 [Those Icons](https://www.flaticon.com/authors/those-icons)
+[Roundicons Freebies](https://www.flaticon.com/authors/roundicons-freebies)
