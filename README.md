@@ -14,3 +14,6 @@ Run `ios` to simulate IOS App and `android` to simulate Android app.
 
 * Iphone X - IOS 12
 * Nexus - Android 8
+
+## Credits
+[Those Icons](https://www.flaticon.com/authors/those-icons)

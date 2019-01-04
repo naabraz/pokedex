@@ -1,11 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Wrapper from '../../../components/Wrapper'
+import Wrapper from 'components/Wrapper'
 import {
   RegionsList,
   RegionName,
+  RegionIcon,
 } from '../style'
+import { pokeball } from 'assets/icons'
 
 const Regions = (props) => {
   const { regions } = props
@@ -15,6 +17,7 @@ const Regions = (props) => {
         data={regions}
         renderItem={({ item }) =>
           <RegionName>
+            <RegionIcon source={pokeball} />
             {item.name}
           </RegionName>}
         keyExtractor={({ name }) => name} />

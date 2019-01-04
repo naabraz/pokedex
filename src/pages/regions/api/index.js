@@ -1,7 +1,7 @@
 import {
   headers,
   url,
-} from '../../../config'
+} from 'config'
 
 export const fetchRegions = () =>
   fetch(`${url}/region`, {
