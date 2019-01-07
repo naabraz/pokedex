@@ -3,6 +3,9 @@ import styled from 'styled-components/native'
 export const RegionsList = styled.FlatList`
 `
 
+export const RegionView = styled.View`
+`
+
 export const RegionName = styled.Text`
 `
 

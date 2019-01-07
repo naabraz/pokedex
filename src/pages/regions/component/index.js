@@ -6,6 +6,7 @@ import {
   RegionsList,
   RegionName,
   RegionIcon,
+  RegionView,
 } from '../style'
 import { map } from 'assets/icons'
 
@@ -16,10 +17,12 @@ const Regions = (props) => {
       <RegionsList
         data={regions}
         renderItem={({ item }) =>
-          <RegionName>
+          <RegionView>
             <RegionIcon source={map} />
-            {item.name}
-          </RegionName>}
+            <RegionName>
+              {item.name}
+            </RegionName>
+          </RegionView>}
         keyExtractor={({ name }) => name} />
     </Wrapper>
   )
