@@ -9,6 +9,7 @@ import {
   RegionView,
 } from '../style'
 import { worldwide } from 'assets/icons'
+import { upperCase } from 'helpers'
 
 const Regions = (props) => {
   const { regions } = props
@@ -20,7 +21,7 @@ const Regions = (props) => {
           <RegionView>
             <RegionIcon source={worldwide} />
             <RegionName>
-              {item.name}
+              {upperCase(item.name)}
             </RegionName>
           </RegionView>}
         keyExtractor={({ name }) => name} />
