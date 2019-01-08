@@ -8,7 +8,7 @@ import {
   RegionIcon,
   RegionView,
 } from '../style'
-import { map } from 'assets/icons'
+import { worldwide } from 'assets/icons'
 
 const Regions = (props) => {
   const { regions } = props
@@ -18,7 +18,7 @@ const Regions = (props) => {
         data={regions}
         renderItem={({ item }) =>
           <RegionView>
-            <RegionIcon source={map} />
+            <RegionIcon source={worldwide} />
             <RegionName>
               {item.name}
             </RegionName>
