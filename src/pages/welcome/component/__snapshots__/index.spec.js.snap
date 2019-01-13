@@ -6,7 +6,7 @@ exports[`Welcome component test Should render component correctly 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "#f6bd20",
+        "backgroundColor": "#e32722",
         "display": "flex",
         "height": "100%",
         "justifyContent": "center",
@@ -19,11 +19,11 @@ exports[`Welcome component test Should render component correctly 1`] = `
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "#fff6a4",
+          "backgroundColor": "#64afe1",
           "borderRadius": 5,
-          "height": "95%",
+          "height": "85%",
           "justifyContent": "center",
-          "width": "95%",
+          "width": "85%",
         },
       ]
     }
@@ -43,6 +43,7 @@ exports[`Welcome component test Should render component correctly 1`] = `
         style={
           Array [
             Object {
+              "color": "#fff",
               "fontSize": 36,
             },
           ]
@@ -71,6 +72,7 @@ exports[`Welcome component test Should render component correctly 1`] = `
           style={
             Array [
               Object {
+                "color": "#fff",
                 "fontSize": 18,
               },
             ]
