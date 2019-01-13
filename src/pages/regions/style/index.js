@@ -1,5 +1,7 @@
 import styled from 'styled-components/native'
 
+import * as color from '../../../themes'
+
 export const RegionsList = styled.FlatList`
 `
 
@@ -11,6 +13,7 @@ export const RegionView = styled.View`
 export const RegionName = styled.Text`
   margin-top: 5
   margin-left: 5
+  color: ${color.white}
 `
 
 export const RegionIcon = styled.Image`

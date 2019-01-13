@@ -12,6 +12,7 @@ export const WelcomeView = styled.View`
 
 export const WelcomeText = styled.Text`
   font-size: 36
+  color: ${color.white}
 `
 
 export const GoToRegionsButton = styled.TouchableOpacity`
@@ -21,4 +22,5 @@ export const GoToRegionsButton = styled.TouchableOpacity`
 
 export const GoToRegionsLabel = styled.Text`
   font-size: 18
+  color: ${color.white}
 `

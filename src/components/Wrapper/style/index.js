@@ -6,14 +6,14 @@ export const WrapperView = styled.View`
   display: flex
   align-items: center
   justify-content: center
-  background-color: ${color.pikachuYellow}
+  background-color: ${color.red}
   height: 100%
 `
 export const ContentView = styled.View`
-  background-color: ${color.lightYellow}
+  background-color: ${color.lightBlue}
   align-items: center
   justify-content: center
-  height: 95%
-  width: 95%
+  height: 85%
+  width: 85%
   border-radius: 5
 `

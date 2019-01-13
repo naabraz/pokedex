@@ -1,5 +1,7 @@
 export const pikachuYellow = '#f6bd20'
-export const red = '#c52018'
+export const red = '#e32722'
+export const lightRed = '#f57D64'
 export const white = '#fff'
 export const whiteSmoke = '#f3f4ee'
 export const lightYellow = '#fff6a4'
+export const lightBlue = '#64afe1'
