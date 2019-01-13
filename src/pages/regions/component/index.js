@@ -9,7 +9,7 @@ import {
   RegionView,
 } from '../style'
 import { worldwide } from 'assets/icons'
-import { upperCase } from 'helpers'
+import { capitalize } from 'helpers'
 
 const Regions = (props) => {
   const { regions } = props
@@ -17,11 +17,12 @@ const Regions = (props) => {
     <Wrapper>
       <RegionsList
         data={regions}
+        numColumns={3}
         renderItem={({ item }) =>
           <RegionView>
             <RegionIcon source={worldwide} />
             <RegionName>
-              {upperCase(item.name)}
+              {capitalize(item.name)}
             </RegionName>
           </RegionView>}
         keyExtractor={({ name }) => name} />
