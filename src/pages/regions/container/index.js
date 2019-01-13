@@ -1,17 +1,20 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import PropTypes from 'prop-types'
 
-import { handleReceiveRegions } from '../actions'
+import { fetchRegions } from '../api'
 import Regions from '../component'
 
 class RegionsContainer extends Component {
-  componentDidMount () {
-    this.props.fetchRegions()
+  state = {
+    regions: [],
+  }
+
+  async componentDidMount () {
+    const { results } = await fetchRegions()
+    this.setState({ regions: results })
   }
 
   render () {
-    const { regions } = this.props
+    const { regions } = this.state
 
     return (
       <Regions regions={regions} />
@@ -19,21 +22,4 @@ class RegionsContainer extends Component {
   }
 }
 
-function mapStateToProps ({ regions }) {
-  return {
-    regions,
-  }
-}
-
-function mapDispatchToProps (dispatch) {
-  return {
-    fetchRegions: () => dispatch(handleReceiveRegions()),
-  }
-}
-
-RegionsContainer.propTypes = {
-  fetchRegions: PropTypes.func,
-  regions: PropTypes.array,
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(RegionsContainer)
+export default RegionsContainer
