@@ -1,18 +1,21 @@
 import styled from 'styled-components/native'
 
-import * as color from '../../../themes'
+import {
+  pikachuYellow,
+  white,
+} from 'themes'
 
 export const WelcomeView = styled.View`
   display: flex;  
-  align-items: center;
-  justify-content: center;
-  background-color: ${color.pikachuYellow}
-  height: 100%;
+  align-items: center
+  justify-content: center
+  background-color: ${pikachuYellow}
+  height: 100%
 `
 
 export const WelcomeText = styled.Text`
   font-size: 36
-  color: ${color.white}
+  color: ${white}
 `
 
 export const GoToRegionsButton = styled.TouchableOpacity`
@@ -22,5 +25,5 @@ export const GoToRegionsButton = styled.TouchableOpacity`
 
 export const GoToRegionsLabel = styled.Text`
   font-size: 18
-  color: ${color.white}
+  color: ${white}
 `

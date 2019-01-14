@@ -27,6 +27,8 @@ exports[`Wrapper component test Should render component correctly 1`] = `
         },
       ]
     }
-  />
+  >
+    This is a String
+  </View>
 </View>
 `;

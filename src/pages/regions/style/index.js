@@ -1,13 +1,16 @@
 import styled from 'styled-components/native'
 
-import * as color from '../../../themes'
+import {
+  whiteSmoke,
+  black,
+} from 'themes'
 
 export const RegionsList = styled.FlatList`
 `
 
 export const RegionView = styled.View`
   margin-top: 30
-  background-color: ${color.whiteSmoke}
+  background-color: ${whiteSmoke}
   width: 25%
   align-items: center
   border-radius: 5
@@ -19,7 +22,7 @@ export const RegionView = styled.View`
 export const RegionName = styled.Text`
   margin-top: 5
   margin-left: 5
-  color: ${color.black}
+  color: ${black}
 `
 
 export const RegionIcon = styled.Image`

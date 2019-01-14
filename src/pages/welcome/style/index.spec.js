@@ -2,7 +2,10 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import 'jest-styled-components/native'
 
-import { WelcomeView, WelcomeText } from './index'
+import {
+  WelcomeView,
+  WelcomeText,
+} from './index'
 
 describe('Testing Welcome component style', () => {
   it('Should render WelcomeView correctly', () => {
