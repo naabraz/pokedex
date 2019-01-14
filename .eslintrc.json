@@ -7,7 +7,7 @@
   },
   "rules": {
     "comma-dangle": ["error", "always-multiline"],
-    "camelcase": ["error", { "ignoreDestructuring": true, "allow": ["pokemon_entries"] }]
+    "camelcase": ["error", { "ignoreDestructuring": true, "allow": ["pokemon_entries", "entry_number", "pokemon_species"] }]
   },
   "settings": {
     "import/core-modules": [

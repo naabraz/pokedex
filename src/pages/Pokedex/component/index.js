@@ -5,18 +5,22 @@ import Wrapper from 'components/Wrapper'
 import {
   PokedexList,
   PokemonView,
+  PokemonName,
 } from '../style'
 
 const Pokedex = props => {
-  const { pokemons } = props
+  const { pokedex } = props
+
   return (
     <Wrapper>
       <PokedexList
-        data={pokemons}
+        data={pokedex}
         numColumns={3}
         renderItem={({ item }) =>
           <PokemonView>
-            {'test'}
+            <PokemonName>
+              {item.name}
+            </PokemonName>
           </PokemonView>}
         keyExtractor={({ name }) => name} />
     </Wrapper>
@@ -24,7 +28,7 @@ const Pokedex = props => {
 }
 
 Pokedex.propTypes = {
-  pokemons: PropTypes.array,
+  pokedex: PropTypes.array,
 }
 
 export default Pokedex

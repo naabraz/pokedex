@@ -11,10 +11,16 @@ class PokedexContainer extends Component {
     pokedex: [],
   }
 
+  formatPokedex (pokedex) {
+    return pokedex.map((pokemon) => {
+      const { entry_number, pokemon_species } = pokemon
+      return { number: entry_number, ...pokemon_species }
+    })
+  }
+
   async componentDidMount () {
-    const { navigation } = this.props
-    const detailURL = navigation.getParam('detailURL')
-    const pokedex = await getPokedex(detailURL)
+    const detailURL = this.props.navigation.getParam('detailURL')
+    const pokedex = this.formatPokedex(await getPokedex(detailURL))
 
     this.setState({ pokedex })
   }

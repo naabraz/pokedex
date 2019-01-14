@@ -5,3 +5,6 @@ export const PokedexList = styled.FlatList`
 
 export const PokemonView = styled.View`
 `
+
+export const PokemonName = styled.Text`
+`
