@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 import { fetchRegions } from '../api'
 import Regions from '../component'
@@ -15,11 +16,16 @@ class RegionsContainer extends Component {
 
   render () {
     const { regions } = this.state
+    const { navigation } = this.props
 
     return (
-      <Regions regions={regions} />
+      <Regions regions={regions} navigation={navigation} />
     )
   }
+}
+
+RegionsContainer.propTypes = {
+  navigation: PropTypes.object,
 }
 
 export default RegionsContainer

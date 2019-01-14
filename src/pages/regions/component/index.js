@@ -7,12 +7,14 @@ import {
   RegionName,
   RegionIcon,
   RegionView,
+  RegionButton,
 } from '../style'
 import { worldwide } from 'assets/icons'
 import { capitalize } from 'helpers'
 
 const Regions = (props) => {
-  const { regions } = props
+  const { regions, navigation } = props
+
   return (
     <Wrapper>
       <RegionsList
@@ -20,10 +22,12 @@ const Regions = (props) => {
         numColumns={3}
         renderItem={({ item }) =>
           <RegionView>
-            <RegionIcon source={worldwide} />
-            <RegionName>
-              {capitalize(item.name)}
-            </RegionName>
+            <RegionButton onPress={() => navigation.navigate('Pokedex')}>
+              <RegionIcon source={worldwide} />
+              <RegionName>
+                {capitalize(item.name)}
+              </RegionName>
+            </RegionButton>
           </RegionView>}
         keyExtractor={({ name }) => name} />
     </Wrapper>
@@ -32,6 +36,7 @@ const Regions = (props) => {
 
 Regions.propTypes = {
   regions: PropTypes.array,
+  navigation: PropTypes.object,
 }
 
 export default Regions

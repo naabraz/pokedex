@@ -19,6 +19,9 @@ export const RegionView = styled.View`
   padding-bottom: 5px
 `
 
+export const RegionButton = styled.TouchableOpacity`
+`
+
 export const RegionName = styled.Text`
   margin-top: 5
   margin-left: 5
