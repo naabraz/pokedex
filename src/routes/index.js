@@ -9,9 +9,9 @@ import Pokedex from '../pages/Pokedex'
 
 const AppNavigator = createStackNavigator(
   {
-    Welcome: Welcome,
-    Regions: Regions,
-    Pokedex: Pokedex,
+    Welcome,
+    Regions,
+    Pokedex,
   },
   {
     initialRouteName: 'Welcome',

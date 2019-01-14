@@ -12,7 +12,6 @@ export const RegionView = styled.View`
   margin-top: 30
   background-color: ${whiteSmoke}
   width: 25%
-  align-items: center
   border-radius: 5
   margin: 10px
   padding-top: 5px
@@ -20,6 +19,7 @@ export const RegionView = styled.View`
 `
 
 export const RegionButton = styled.TouchableOpacity`
+  align-items: center
 `
 
 export const RegionName = styled.Text`
