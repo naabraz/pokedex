@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-// import { fetchRegionDetails } from '../api'
+import {
+  getPokedex,
+} from '../api'
 import Pokedex from '../component'
 
 class PokedexContainer extends Component {
@@ -8,16 +11,25 @@ class PokedexContainer extends Component {
     pokedex: [],
   }
 
-  componentDidMount () {
-    console.log(this.props)
+  async componentDidMount () {
+    const { navigation } = this.props
+    const detailURL = navigation.getParam('detailURL')
+    const pokedex = await getPokedex(detailURL)
+
+    this.setState({ pokedex })
   }
 
   render () {
-    const pokedex = [{ name: 'Test' }]
+    const { pokedex } = this.state
+
     return (
       <Pokedex pokedex={pokedex} />
     )
   }
+}
+
+PokedexContainer.propTypes = {
+  navigation: PropTypes.object,
 }
 
 export default PokedexContainer

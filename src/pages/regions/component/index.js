@@ -22,7 +22,7 @@ const Regions = (props) => {
         numColumns={3}
         renderItem={({ item }) =>
           <RegionView>
-            <RegionButton onPress={() => navigation.navigate('Pokedex')}>
+            <RegionButton onPress={() => navigation.navigate('Pokedex', { detailURL: item.url })}>
               <RegionIcon source={worldwide} />
               <RegionName>
                 {capitalize(item.name)}

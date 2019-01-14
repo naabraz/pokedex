@@ -6,7 +6,8 @@
     "browser": true
   },
   "rules": {
-    "comma-dangle": ["error", "always-multiline"]
+    "comma-dangle": ["error", "always-multiline"],
+    "camelcase": ["error", { "ignoreDestructuring": true, "allow": ["pokemon_entries"] }]
   },
   "settings": {
     "import/core-modules": [
