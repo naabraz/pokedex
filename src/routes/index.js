@@ -3,8 +3,8 @@ import {
   createAppContainer,
 } from 'react-navigation'
 
-import Welcome from '../pages/welcome'
-import Regions from '../pages/regions'
+import Welcome from '../pages/Welcome'
+import Regions from '../pages/Regions'
 
 const AppNavigator = createStackNavigator(
   {

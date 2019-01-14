@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpringAnimatedView component test Should render component correctly 1`] = `
+<View
+  style={
+    Object {
+      "transform": Array [
+        Object {
+          "scale": 0.30000000000000004,
+        },
+      ],
+    }
+  }
+/>
+`;
