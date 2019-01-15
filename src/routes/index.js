@@ -3,9 +3,9 @@ import {
   createAppContainer,
 } from 'react-navigation'
 
-import Welcome from '../pages/Welcome'
-import Regions from '../pages/Regions'
-import Pokedex from '../pages/Pokedex'
+import Welcome from '../screens/Welcome'
+import Regions from '../screens/Regions'
+import Pokedex from '../screens/Pokedex'
 
 const AppNavigator = createStackNavigator(
   {
