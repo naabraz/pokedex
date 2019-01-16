@@ -9,13 +9,13 @@ export const RegionsList = styled.FlatList`
 `
 
 export const RegionView = styled.View`
-  margin-top: 30
   background-color: ${whiteSmoke}
-  width: 25%
   border-radius: 5
+  padding-top: 20px
+  padding-bottom: 20px
+  padding-left: 50px
+  padding-right: 50px
   margin: 10px
-  padding-top: 5px
-  padding-bottom: 5px
 `
 
 export const RegionButton = styled.TouchableOpacity`
@@ -23,12 +23,11 @@ export const RegionButton = styled.TouchableOpacity`
 `
 
 export const RegionName = styled.Text`
-  margin-top: 5
-  margin-left: 5
   color: ${black}
+  font-size: 24
 `
 
 export const RegionIcon = styled.Image`
-  width: 32
-  height: 32
+  width: 64
+  height: 64
 `

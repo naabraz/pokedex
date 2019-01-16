@@ -6,8 +6,9 @@ import {
   PokedexList,
   PokemonView,
   PokemonName,
+  PokemonImage,
 } from '../style'
-
+import { pokeNumber001 } from 'assets/pokemon'
 import { capitalize } from 'helpers'
 
 const Pokedex = props => {
@@ -17,9 +18,10 @@ const Pokedex = props => {
     <Wrapper>
       <PokedexList
         data={pokedex}
-        numColumns={3}
+        numColumns={2}
         renderItem={({ item }) =>
           <PokemonView>
+            <PokemonImage source={pokeNumber001} />
             <PokemonName>
               {capitalize(item.name)}
             </PokemonName>

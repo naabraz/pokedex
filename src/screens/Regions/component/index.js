@@ -5,11 +5,10 @@ import Wrapper from 'components/Wrapper'
 import {
   RegionsList,
   RegionName,
-  RegionIcon,
   RegionView,
   RegionButton,
 } from '../style'
-import { worldwide } from 'assets/icons'
+
 import { capitalize } from 'helpers'
 
 const Regions = (props) => {
@@ -19,11 +18,9 @@ const Regions = (props) => {
     <Wrapper>
       <RegionsList
         data={regions}
-        numColumns={3}
         renderItem={({ item }) =>
           <RegionView>
             <RegionButton onPress={() => navigation.navigate('Pokedex', { detailURL: item.url })}>
-              <RegionIcon source={worldwide} />
               <RegionName>
                 {capitalize(item.name)}
               </RegionName>
