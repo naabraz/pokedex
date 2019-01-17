@@ -19,6 +19,3 @@ export const PokemonImage = styled.Image`
   width: 64
   height: 64
 `
-
-export const PokemonName = styled.Text`
-`

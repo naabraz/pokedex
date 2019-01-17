@@ -5,13 +5,17 @@ import Wrapper from 'components/Wrapper'
 import {
   PokedexList,
   PokemonView,
-  PokemonName,
   PokemonImage,
 } from '../style'
-import * as pokemon from 'assets/pokemon'
+
+import { IMAGES } from 'assets/pokemon'
 
 const Pokedex = props => {
   const { pokedex } = props
+
+  const getImage = (num) => {
+    return IMAGES['pokemonImage' + num]
+  }
 
   return (
     <Wrapper>
@@ -20,10 +24,7 @@ const Pokedex = props => {
         numColumns={2}
         renderItem={({ item }) =>
           <PokemonView>
-            <PokemonImage source={pokemon.pokemonImage001} />
-            <PokemonName>
-              {item.number}
-            </PokemonName>
+            <PokemonImage source={getImage(item.number)} />
           </PokemonView>}
         keyExtractor={({ name }) => name} />
     </Wrapper>
