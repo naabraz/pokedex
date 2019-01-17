@@ -1,1 +1,1 @@
-export const pokeNumber001 = require('./001.png')
+export const pokemonImage001 = require('./001.png')

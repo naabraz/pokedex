@@ -8,8 +8,7 @@ import {
   PokemonName,
   PokemonImage,
 } from '../style'
-import { pokeNumber001 } from 'assets/pokemon'
-import { capitalize } from 'helpers'
+import * as pokemon from 'assets/pokemon'
 
 const Pokedex = props => {
   const { pokedex } = props
@@ -21,9 +20,9 @@ const Pokedex = props => {
         numColumns={2}
         renderItem={({ item }) =>
           <PokemonView>
-            <PokemonImage source={pokeNumber001} />
+            <PokemonImage source={pokemon.pokemonImage001} />
             <PokemonName>
-              {capitalize(item.name)}
+              {item.number}
             </PokemonName>
           </PokemonView>}
         keyExtractor={({ name }) => name} />

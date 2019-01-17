@@ -10,7 +10,10 @@ import {
   WelcomeText,
   GoToRegionsButton,
   GoToRegionsLabel,
+  RegionsIcon,
 } from '../style'
+
+import { worldwide } from 'assets/icons'
 
 const Welcome = (props) => {
   const { navigation } = props
@@ -25,6 +28,7 @@ const Welcome = (props) => {
           <GoToRegionsLabel>
             {string.RegionsLabel}
           </GoToRegionsLabel>
+          <RegionsIcon source={worldwide} />
         </GoToRegionsButton>
       </SpringAnimatedView>
     </Wrapper>
