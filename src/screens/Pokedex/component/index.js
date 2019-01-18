@@ -9,12 +9,14 @@ import {
 } from '../style'
 
 import { kantoImages } from 'assets/pokemon/kanto'
+import { johtoImages } from 'assets/pokemon/johto'
 
 const Pokedex = props => {
   const { pokedex, region } = props
 
   const getImage = (num) => {
     if (region === 'kanto') return kantoImages['pokemonImage' + num]
+    if (region === 'johto') return johtoImages['pokemonImage' + num]
   }
 
   const getPokemonNumber = (url) => {
