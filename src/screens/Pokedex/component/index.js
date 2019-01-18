@@ -17,6 +17,9 @@ const Pokedex = props => {
     if (region === 'kanto') return kantoImages['pokemonImage' + num]
   }
 
+  const getPokemonNumber = (url) => {
+    return url.split('/')[6]
+  }
   return (
     <Wrapper>
       <PokedexList
@@ -24,7 +27,7 @@ const Pokedex = props => {
         numColumns={2}
         renderItem={({ item }) =>
           <PokemonView>
-            <PokemonImage source={getImage(item.number)} />
+            <PokemonImage source={getImage(getPokemonNumber(item.url))} />
           </PokemonView>}
         keyExtractor={({ name }) => name} />
     </Wrapper>
