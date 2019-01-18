@@ -8,13 +8,13 @@ import {
   PokemonImage,
 } from '../style'
 
-import { IMAGES } from 'assets/pokemon'
+import { kantoImages } from 'assets/pokemon/kanto'
 
 const Pokedex = props => {
-  const { pokedex } = props
+  const { pokedex, region } = props
 
   const getImage = (num) => {
-    return IMAGES['pokemonImage' + num]
+    if (region === 'kanto') return kantoImages['pokemonImage' + num]
   }
 
   return (
@@ -33,6 +33,7 @@ const Pokedex = props => {
 
 Pokedex.propTypes = {
   pokedex: PropTypes.array,
+  region: PropTypes.string,
 }
 
 export default Pokedex

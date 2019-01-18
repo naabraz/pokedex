@@ -20,7 +20,7 @@ const Regions = (props) => {
         data={regions}
         renderItem={({ item }) =>
           <RegionView>
-            <RegionButton onPress={() => navigation.navigate('Pokedex', { detailURL: item.url })}>
+            <RegionButton onPress={() => navigation.navigate('Pokedex', { detailURL: item.url, region: item.name })}>
               <RegionName>
                 {capitalize(item.name)}
               </RegionName>

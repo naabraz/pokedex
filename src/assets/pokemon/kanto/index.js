@@ -1,4 +1,4 @@
-export const IMAGES = {
+export const kantoImages = {
   pokemonImage1: require('./1.png'),
   pokemonImage2: require('./2.png'),
   pokemonImage3: require('./3.png'),

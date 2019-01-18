@@ -9,6 +9,7 @@ import Pokedex from '../component'
 class PokedexContainer extends Component {
   state = {
     pokedex: [],
+    region: '',
   }
 
   formatPokedex (pokedex) {
@@ -20,16 +21,17 @@ class PokedexContainer extends Component {
 
   async componentDidMount () {
     const detailURL = this.props.navigation.getParam('detailURL')
+    const region = this.props.navigation.getParam('region')
     const pokedex = this.formatPokedex(await getPokedex(detailURL))
 
-    this.setState({ pokedex })
+    this.setState({ pokedex, region })
   }
 
   render () {
-    const { pokedex } = this.state
+    const { pokedex, region } = this.state
 
     return (
-      <Pokedex pokedex={pokedex} />
+      <Pokedex pokedex={pokedex} region={region} />
     )
   }
 }
