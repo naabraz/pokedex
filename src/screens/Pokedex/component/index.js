@@ -20,6 +20,7 @@ const Pokedex = props => {
   }
 
   const getPokemonNumber = (url) => {
+    console.log(url, url.split('/')[6])
     return url.split('/')[6]
   }
   return (
