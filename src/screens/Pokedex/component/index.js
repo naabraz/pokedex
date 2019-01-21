@@ -19,14 +19,25 @@ const Pokedex = props => {
     if (region === 'johto') return johtoImages['pokemonImage' + num]
   }
 
+  const clearPokedex = () => {
+    const cleared = []
+    pokedex.map((pok) => {
+      if (pok.url.split('/')[6] > 150) cleared.push(pok)
+    })
+
+    return cleared
+  }
+
+  const clearedPokedex = region === 'johto' ? clearPokedex() : pokedex
+
   const getPokemonNumber = (url) => {
-    console.log(url, url.split('/')[6])
     return url.split('/')[6]
   }
+
   return (
     <Wrapper>
       <PokedexList
-        data={pokedex}
+        data={clearedPokedex}
         numColumns={2}
         renderItem={({ item }) =>
           <PokemonView>
