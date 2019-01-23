@@ -238,5 +238,105 @@
   {
     "id": 60,
     "name": "poliwag"
+  },
+  {
+    "id": 61,
+    "name": "poliwhirl"
+  },
+  {
+    "id": 62,
+    "name": "poliwrath"
+  },
+  {
+    "id": 63,
+    "name": "abra"
+  },
+  {
+    "id": 64,
+    "name": "kadabra"
+  },
+  {
+    "id": 65,
+    "name": "alakazam"
+  },
+  {
+    "id": 66,
+    "name": "machop"
+  },
+  {
+    "id": 67,
+    "name": "machoke"
+  },
+  {
+    "id": 68,
+    "name": "machamp"
+  },
+  {
+    "id": 69,
+    "name": "machamp"
+  },
+  {
+    "id": 70,
+    "name": "weepinbell"
+  },
+  {
+    "id": 71,
+    "name": "victreebel"
+  },
+  {
+    "id": 72,
+    "name": "tentacool"
+  },
+  {
+    "id": 73,
+    "name": "tentacruel"
+  },
+  {
+    "id": 74,
+    "name": "tentacruel"
+  },
+  {
+    "id": 75,
+    "name": "graveler"
+  },
+  {
+    "id": 76,
+    "name": "golem"
+  },
+  {
+    "id": 77,
+    "name": "ponyta"
+  },
+  {
+    "id": 78,
+    "name": "rapidash"
+  },
+  {
+    "id": 79,
+    "name": "slowpoke"
+  },
+  {
+    "id": 80,
+    "name": "slowbro"
+  },
+  {
+    "id": 81,
+    "name": "magnemite"
+  },
+  {
+    "id": 82,
+    "name": "magneton"
+  },
+  {
+    "id": 83,
+    "name": "farfetchd"
+  },
+  {
+    "id": 84,
+    "name": "doduo"
+  },
+  {
+    "id": 85,
+    "name": "dodrio"
   }
 ]
