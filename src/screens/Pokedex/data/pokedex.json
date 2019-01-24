@@ -338,5 +338,105 @@
   {
     "id": 85,
     "name": "dodrio"
+  },
+  {
+    "id": 86,
+    "name": "seel"
+  },
+  {
+    "id": 87,
+    "name": "dewgong"
+  },
+  {
+    "id": 88,
+    "name": "grimer"
+  },
+  {
+    "id": 89,
+    "name": "muk"
+  },
+  {
+    "id": 90,
+    "name": "shellder"
+  },
+  {
+    "id": 91,
+    "name": "cloyster"
+  },
+  {
+    "id": 92,
+    "name": "gastly"
+  },
+  {
+    "id": 93,
+    "name": "haunter"
+  },
+  {
+    "id": 94,
+    "name": "gengar"
+  },
+  {
+    "id": 95,
+    "name": "onix"
+  },
+  {
+    "id": 96,
+    "name": "drowzee"
+  },
+  {
+    "id": 97,
+    "name": "drowzee"
+  },
+  {
+    "id": 98,
+    "name": "krabby"
+  },
+  {
+    "id": 99,
+    "name": "kingler"
+  },
+  {
+    "id": 100,
+    "name": "voltorb"
+  },
+  {
+    "id": 101,
+    "name": "electrode"
+  },
+  {
+    "id": 102,
+    "name": "exeggcute"
+  },
+  {
+    "id": 103,
+    "name": "exeggcute"
+  },
+  {
+    "id": 104,
+    "name": "cubone"
+  },
+  {
+    "id": 105,
+    "name": "marowak"
+  },
+  {
+    "id": 106,
+    "name": "hitmonlee"
+  },
+  {
+    "id": 107,
+    "name": "hitmonchan"
+  },
+  {
+    "id": 108,
+    "name": "lickitung"
+  },
+  {
+    "id": 109,
+    "name": "koffing"
+  },
+  {
+    "id": 110,
+    "name": "weezing"
   }
 ]
