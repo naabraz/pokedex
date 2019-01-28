@@ -438,5 +438,169 @@
   {
     "id": 110,
     "name": "weezing"
+  },
+  {
+    "id": 111,
+    "name": "rhyhorn"
+  },
+  {
+    "id": 112,
+    "name": "rhydon"
+  },
+  {
+    "id": 113,
+    "name": "chansey"
+  },
+  {
+    "id": 114,
+    "name": "tangela"
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan"
+  },
+  {
+    "id": 116,
+    "name": "horsea"
+  },
+  {
+    "id": 117,
+    "name": "seadra"
+  },
+  {
+    "id": 118,
+    "name": "goldeen"
+  },
+  {
+    "id": 119,
+    "name": "seaking"
+  },
+  {
+    "id": 120,
+    "name": "staryu"
+  },
+  {
+    "id": 121,
+    "name": "starmie"
+  },
+  {
+    "id": 122,
+    "name": "mr-mime"
+  },
+  {
+    "id": 123,
+    "name": "scyther"
+  },
+  {
+    "id": 124,
+    "name": "jynx"
+  },
+  {
+    "id": 125,
+    "name": "electabuzz"
+  },
+  {
+    "id": 126,
+    "name": "magmar"
+  },
+  {
+    "id": 127,
+    "name": "pinsir"
+  },
+  {
+    "id": 128,
+    "name": "tauros"
+  },
+  {
+    "id": 129,
+    "name": "magikarp"
+  },
+  {
+    "id": 130,
+    "name": "gyarados"
+  },
+  {
+    "id": 131,
+    "name": "lapras"
+  },
+  {
+    "id": 132,
+    "name": "ditto"
+  },
+  {
+    "id": 133,
+    "name": "eevee"
+  },
+  {
+    "id": 134,
+    "name": "vaporeon"
+  },
+  {
+    "id": 135,
+    "name": "jolteon"
+  },
+  {
+    "id": 136,
+    "name": "flareon"
+  },
+  {
+    "id": 137,
+    "name": "porygon"
+  },
+  {
+    "id": 138,
+    "name": "omanyte"
+  },
+  {
+    "id": 139,
+    "name": "omastar"
+  },
+  {
+    "id": 140,
+    "name": "kabuto"
+  },
+  {
+    "id": 141,
+    "name": "kabutops"
+  },
+  {
+    "id": 142,
+    "name": "aerodactyl"
+  },
+  {
+    "id": 143,
+    "name": "snorlax"
+  },
+  {
+    "id": 144,
+    "name": "articuno"
+  },
+  {
+    "id": 145,
+    "name": "zapdos"
+  },
+  {
+    "id": 146,
+    "name": "moltres"
+  },
+  {
+    "id": 147,
+    "name": "dratini"
+  },
+  {
+    "id": 148,
+    "name": "dragonair"
+  },
+  {
+    "id": 149,
+    "name": "dragonite"
+  },
+  {
+    "id": 150,
+    "name": "mewtwo"
+  },
+  {
+    "id": 151,
+    "name": "mew"
   }
 ]
