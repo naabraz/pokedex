@@ -734,5 +734,61 @@
   {
     "id": 184,
     "name": "azumarill"
+  },
+  {
+    "id": 185,
+    "name": "sudowoodo"
+  },
+  {
+    "id": 186,
+    "name": "politoed"
+  },
+  {
+    "id": 187,
+    "name": "hoppip"
+  },
+  {
+    "id": 188,
+    "name": "hoppip"
+  },
+  {
+    "id": 189,
+    "name": "jumpluff"
+  },
+  {
+    "id": 190,
+    "name": "aipom"
+  },
+  {
+    "id": 191,
+    "name": "sunkern"
+  },
+  {
+    "id": 192,
+    "name": "sunflora"
+  },
+  {
+    "id": 193,
+    "name": "yanma"
+  },
+  {
+    "id": 194,
+    "name": "yanma"
+  },
+  {
+    "id": 194,
+    "name": "wooper"
+  },
+  {
+    "id": 195,
+    "name": "quagsire"
+  },
+  {
+    "id": 196,
+    "name": "espeon"
+  },
+  {
+    "id": 197,
+    "name": "espeon"
   }
 ]
