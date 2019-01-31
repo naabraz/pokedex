@@ -602,5 +602,137 @@
   {
     "id": 151,
     "name": "mew"
+  },
+  {
+    "id": 152,
+    "name": "chikorita"
+  },
+  {
+    "id": 153,
+    "name": "bayleef"
+  },
+  {
+    "id": 154,
+    "name": "meganium"
+  },
+  {
+    "id": 155,
+    "name": "cyndaquil"
+  },
+  {
+    "id": 156,
+    "name": "quilava"
+  },
+  {
+    "id": 157,
+    "name": "typhlosion"
+  },
+  {
+    "id": 158,
+    "name": "totodile"
+  },
+  {
+    "id": 159,
+    "name": "croconaw"
+  },
+  {
+    "id": 160,
+    "name": "feraligatr"
+  },
+  {
+    "id": 161,
+    "name": "sentret"
+  },
+  {
+    "id": 162,
+    "name": "furret"
+  },
+  {
+    "id": 163,
+    "name": "hoothoot"
+  },
+  {
+    "id": 164,
+    "name": "noctowl"
+  },
+  {
+    "id": 165,
+    "name": "ledyba"
+  },
+  {
+    "id": 166,
+    "name": "ledian"
+  },
+  {
+    "id": 167,
+    "name": "spinarak"
+  },
+  {
+    "id": 168,
+    "name": "ariados"
+  },
+  {
+    "id": 169,
+    "name": "crobat"
+  },
+  {
+    "id": 170,
+    "name": "chinchou"
+  },
+  {
+    "id": 171,
+    "name": "lanturn"
+  },
+  {
+    "id": 172,
+    "name": "pichu"
+  },
+  {
+    "id": 173,
+    "name": "cleffa"
+  },
+  {
+    "id": 174,
+    "name": "igglybuff"
+  },
+  {
+    "id": 175,
+    "name": "togepi"
+  },
+  {
+    "id": 176,
+    "name": "togetic"
+  },
+  {
+    "id": 177,
+    "name": "natu"
+  },
+  {
+    "id": 178,
+    "name": "xatu"
+  },
+  {
+    "id": 179,
+    "name": "mareep"
+  },
+  {
+    "id": 180,
+    "name": "flaaffy"
+  },
+  {
+    "id": 181,
+    "name": "ampharos"
+  },
+  {
+    "id": 182,
+    "name": "bellossom"
+  },
+  {
+    "id": 183,
+    "name": "marill"
+  },
+  {
+    "id": 184,
+    "name": "azumarill"
   }
 ]
