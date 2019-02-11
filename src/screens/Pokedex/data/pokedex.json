@@ -790,5 +790,149 @@
   {
     "id": 197,
     "name": "espeon"
+  },
+  {
+    "id": 198,
+    "name": "skarmory"
+  },
+  {
+    "id": 199,
+    "name": "doduo"
+  },
+  {
+    "id": 200,
+    "name": "dodrio"
+  },
+  {
+    "id": 201,
+    "name": "ponyta"
+  },
+  {
+    "id": 202,
+    "name": "rapidash"
+  },
+  {
+    "id": 203,
+    "name": "cubone"
+  },
+  {
+    "id": 204,
+    "name": "marowak"
+  },
+  {
+    "id": 205,
+    "name": "kangaskhan"
+  },
+  {
+    "id": 206,
+    "name": "rhyhorn"
+  },
+  {
+    "id": 207,
+    "name": "rhydon"
+  },
+  {
+    "id": 208,
+    "name": "murkrow"
+  },
+  {
+    "id": 209,
+    "name": "houndour"
+  },
+  {
+    "id": 210,
+    "name": "houndoom"
+  },
+  {
+    "id": 211,
+    "name": "slugma"
+  },
+  {
+    "id": 212,
+    "name": "magcargo"
+  },
+  {
+    "id": 213,
+    "name": "sneasel"
+  },
+  {
+    "id": 214,
+    "name": "misdreavus"
+  },
+  {
+    "id": 215,
+    "name": "porygon"
+  },
+  {
+    "id": 216,
+    "name": "porygon2"
+  },
+  {
+    "id": 217,
+    "name": "chansey"
+  },
+  {
+    "id": 218,
+    "name": "blissey"
+  },
+  {
+    "id": 219,
+    "name": "lapras"
+  },
+  {
+    "id": 220,
+    "name": "omanyte"
+  },
+  {
+    "id": 221,
+    "name": "omastar"
+  },
+  {
+    "id": 222,
+    "name": "kabuto"
+  },
+  {
+    "id": 223,
+    "name": "kabutops"
+  },
+  {
+    "id": 224,
+    "name": "aerodactyl"
+  },
+  {
+    "id": 225,
+    "name": "snorlax"
+  },
+  {
+    "id": 226,
+    "name": "bulbasaur"
+  },
+  {
+    "id": 227,
+    "name": "ivysaur"
+  },
+  {
+    "id": 228,
+    "name": "venusaur"
+  },
+  {
+    "id": 229,
+    "name": "charmander"
+  },
+  {
+    "id": 230,
+    "name": "charmeleon"
+  },
+  {
+    "id": 231,
+    "name": "charizard"
+  },
+  {
+    "id": 232,
+    "name": "squirtle"
+  },
+  {
+    "id": 233,
+    "name": "wartortle"
   }
 ]
