@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import Wrapper from 'components/Wrapper'
 import {
@@ -11,7 +10,12 @@ import {
 
 import { capitalize } from 'helpers'
 
-const Regions = (props) => {
+const IRegions = {
+  regions: Array,
+  navigation: Object,
+}
+
+const Regions = (props: IRegions) => {
   const { regions, navigation } = props
 
   return (
@@ -29,11 +33,6 @@ const Regions = (props) => {
         keyExtractor={({ name }) => name} />
     </Wrapper>
   )
-}
-
-Regions.propTypes = {
-  regions: PropTypes.array,
-  navigation: PropTypes.object,
 }
 
 export default Regions
