@@ -43,7 +43,7 @@ exports[`Welcome component test Should render component correctly 1`] = `
         style={
           Array [
             Object {
-              "color": "#fff",
+              "color": "#e6e6e6",
               "fontSize": 36,
             },
           ]
@@ -63,8 +63,14 @@ exports[`Welcome component test Should render component correctly 1`] = `
         style={
           Object {
             "alignItems": "center",
+            "backgroundColor": "#e6e6e6",
+            "borderRadius": 5,
             "marginTop": 50,
             "opacity": 1,
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
           }
         }
       >
@@ -72,14 +78,30 @@ exports[`Welcome component test Should render component correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#fff",
+                "color": "#000",
                 "fontSize": 18,
+                "marginBottom": 10,
               },
             ]
           }
         >
           Regions
         </Text>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/icons/worldwide.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 64,
+                "width": 64,
+              },
+            ]
+          }
+        />
       </View>
     </View>
   </View>

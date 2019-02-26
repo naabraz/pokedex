@@ -46,7 +46,7 @@ exports[`Regions component test Should render component correctly 1`] = `
       initialNumToRender={10}
       keyExtractor={[Function]}
       maxToRenderPerBatch={10}
-      numColumns={3}
+      numColumns={1}
       onContentSizeChange={[Function]}
       onEndReachedThreshold={2}
       onLayout={[Function]}
@@ -73,51 +73,44 @@ exports[`Regions component test Should render component correctly 1`] = `
         >
           <View
             style={
-              Object {
-                "flexDirection": "row",
-              }
+              Array [
+                Object {
+                  "backgroundColor": "#e6e6e6",
+                  "borderRadius": 5,
+                  "marginBottom": 10,
+                  "marginLeft": 10,
+                  "marginRight": 10,
+                  "marginTop": 10,
+                  "paddingBottom": 20,
+                  "paddingLeft": 50,
+                  "paddingRight": 50,
+                  "paddingTop": 20,
+                },
+              ]
             }
           >
             <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
               style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#e6e6e6",
-                    "borderRadius": 5,
-                    "marginBottom": 10,
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                    "marginTop": 10,
-                    "paddingBottom": 5,
-                    "paddingTop": 5,
-                    "width": "25%",
-                  },
-                ]
+                Object {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
               }
             >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/icons/worldwide.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
               <Text
                 style={
                   Array [
                     Object {
                       "color": "#000",
-                      "marginLeft": 5,
-                      "marginTop": 5,
+                      "fontSize": 24,
                     },
                   ]
                 }
@@ -125,46 +118,52 @@ exports[`Regions component test Should render component correctly 1`] = `
                 Kantoo
               </Text>
             </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#e6e6e6",
+                  "borderRadius": 5,
+                  "marginBottom": 10,
+                  "marginLeft": 10,
+                  "marginRight": 10,
+                  "marginTop": 10,
+                  "paddingBottom": 20,
+                  "paddingLeft": 50,
+                  "paddingRight": 50,
+                  "paddingTop": 20,
+                },
+              ]
+            }
+          >
             <View
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
               style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "backgroundColor": "#e6e6e6",
-                    "borderRadius": 5,
-                    "marginBottom": 10,
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                    "marginTop": 10,
-                    "paddingBottom": 5,
-                    "paddingTop": 5,
-                    "width": "25%",
-                  },
-                ]
+                Object {
+                  "alignItems": "center",
+                  "opacity": 1,
+                }
               }
             >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/assets/icons/worldwide.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "height": 32,
-                      "width": 32,
-                    },
-                  ]
-                }
-              />
               <Text
                 style={
                   Array [
                     Object {
                       "color": "#000",
-                      "marginLeft": 5,
-                      "marginTop": 5,
+                      "fontSize": 24,
                     },
                   ]
                 }
