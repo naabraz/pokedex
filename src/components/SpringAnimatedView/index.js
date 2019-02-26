@@ -1,8 +1,13 @@
-import React from 'react'
-import { Animated } from 'react-native'
-import PropTypes from 'prop-types'
+// @flow
 
-class SpringAnimatedView extends React.Component {
+import React, { Component } from 'react'
+import { Animated } from 'react-native'
+
+const ISprinAnimated = {
+  childen: Object,
+}
+
+class SpringAnimatedView extends Component<ISprinAnimated> {
   state = {
     springValue: new Animated.Value(0.3),
   }
@@ -28,10 +33,6 @@ class SpringAnimatedView extends React.Component {
       </Animated.View>
     )
   }
-}
-
-SpringAnimatedView.propTypes = {
-  children: PropTypes.node,
 }
 
 export default SpringAnimatedView
