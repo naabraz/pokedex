@@ -1,12 +1,16 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// @flow
 
-import {
-  getPokedex,
-} from '../api'
+import React, { Component } from 'react'
+
+import { getPokedex } from '../api'
 import Pokedex from '../component'
 
-class PokedexContainer extends Component {
+const IPokedexContainer = {
+  pokedex: Array,
+  region: String,
+}
+
+class PokedexContainer extends Component<IPokedexContainer> {
   state = {
     pokedex: [],
     region: '',
@@ -34,10 +38,6 @@ class PokedexContainer extends Component {
       <Pokedex pokedex={pokedex} region={region} />
     )
   }
-}
-
-PokedexContainer.propTypes = {
-  navigation: PropTypes.object,
 }
 
 export default PokedexContainer
