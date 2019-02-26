@@ -1,10 +1,15 @@
+// @flow
+
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 
 import { fetchRegions } from '../api'
 import Regions from '../component'
 
-class RegionsContainer extends Component {
+const IRegionsContainer = {
+  navigation: Object,
+}
+
+class RegionsContainer extends Component<IRegionsContainer> {
   state = {
     regions: [],
   }
@@ -22,10 +27,6 @@ class RegionsContainer extends Component {
       <Regions regions={regions} navigation={navigation} />
     )
   }
-}
-
-RegionsContainer.propTypes = {
-  navigation: PropTypes.object,
 }
 
 export default RegionsContainer
