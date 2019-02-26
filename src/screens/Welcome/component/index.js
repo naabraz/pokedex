@@ -1,5 +1,6 @@
+// @flow
+
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import Wrapper from 'components/Wrapper'
 import SpringAnimatedView from 'components/SpringAnimatedView'
@@ -15,7 +16,11 @@ import {
 
 import { worldwide } from 'assets/icons'
 
-const Welcome = (props) => {
+const IWelcome = {
+  navigation: Object,
+}
+
+const Welcome = (props: IWelcome) => {
   const { navigation } = props
 
   return (
@@ -33,10 +38,6 @@ const Welcome = (props) => {
       </SpringAnimatedView>
     </Wrapper>
   )
-}
-
-Welcome.propTypes = {
-  navigation: PropTypes.object,
 }
 
 export default Welcome
