@@ -1,5 +1,6 @@
+// @flow
+
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import Wrapper from 'components/Wrapper'
 import {
@@ -11,7 +12,12 @@ import {
 import { kantoImages } from 'assets/pokemon/kanto'
 import { johtoImages } from 'assets/pokemon/johto'
 
-const Pokedex = props => {
+const IPokedex = {
+  pokedex: Array,
+  region: String,
+}
+
+const Pokedex = (props: IPokedex) => {
   const { pokedex, region } = props
 
   const getImage = (num) => {
@@ -46,11 +52,6 @@ const Pokedex = props => {
         keyExtractor={({ name }) => name} />
     </Wrapper>
   )
-}
-
-Pokedex.propTypes = {
-  pokedex: PropTypes.array,
-  region: PropTypes.string,
 }
 
 export default Pokedex
