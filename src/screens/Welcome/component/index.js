@@ -16,7 +16,7 @@ import {
 
 import { worldwide } from 'assets/icons'
 
-const IWelcome = {
+type IWelcome = {
   navigation: Object,
 }
 

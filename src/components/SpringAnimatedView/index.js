@@ -3,11 +3,15 @@
 import React, { Component } from 'react'
 import { Animated } from 'react-native'
 
-const ISprinAnimated = {
-  childen: Object,
+type ISprinAnimated = {
+  children: Object,
 }
 
-class SpringAnimatedView extends Component<ISprinAnimated> {
+type State = {
+  springValue: Object
+}
+
+class SpringAnimatedView extends Component<ISprinAnimated, State> {
   state = {
     springValue: new Animated.Value(0.3),
   }

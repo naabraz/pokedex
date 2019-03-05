@@ -1,23 +1,25 @@
-// @flow
-
 import React, { Component } from 'react'
 
 import { getPokedex } from '../api'
 import Pokedex from '../component'
 
-const IPokedexContainer = {
-  pokedex: Array,
-  region: String,
+type IPokedexContainer = {
+  navigation: Object,
 }
 
-class PokedexContainer extends Component<IPokedexContainer> {
+type State = {
+  pokedex: Array<Object>,
+  region: string | String
+}
+
+class PokedexContainer extends Component<IPokedexContainer, State> {
   state = {
     pokedex: [],
     region: '',
   }
 
-  formatPokedex (pokedex) {
-    return pokedex.map((pokemon) => {
+  formatPokedex (pokedex: Array<Object>) {
+    return pokedex.map((pokemon: Object) => {
       const { entry_number, pokemon_species } = pokemon
       return { number: entry_number, ...pokemon_species }
     })

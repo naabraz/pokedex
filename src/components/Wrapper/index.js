@@ -7,7 +7,7 @@ import {
   ContentView,
 } from './style'
 
-const IWrapper = {
+type IWrapper = {
   children: Object,
 }
 

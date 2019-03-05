@@ -12,8 +12,8 @@ import {
 
 import { capitalize } from 'helpers'
 
-const IRegions = {
-  regions: Array,
+type IRegions = {
+  regions: Array<Object>,
   navigation: Object,
 }
 

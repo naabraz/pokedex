@@ -5,11 +5,15 @@ import React, { Component } from 'react'
 import { fetchRegions } from '../api'
 import Regions from '../component'
 
-const IRegionsContainer = {
+type IRegionsContainer = {
   navigation: Object,
 }
 
-class RegionsContainer extends Component<IRegionsContainer> {
+type State = {
+  regions: Array<Object>
+}
+
+class RegionsContainer extends Component<IRegionsContainer, State> {
   state = {
     regions: [],
   }

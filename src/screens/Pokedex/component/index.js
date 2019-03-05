@@ -12,8 +12,8 @@ import {
 import { kantoImages } from 'assets/pokemon/kanto'
 import { johtoImages } from 'assets/pokemon/johto'
 
-const IPokedex = {
-  pokedex: Array,
+type IPokedex = {
+  pokedex: Array<Object>,
   region: String,
 }
 
