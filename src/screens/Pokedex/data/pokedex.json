@@ -1602,5 +1602,45 @@
   {
     "id": 400,
     "name": "bibarel"
+  },
+  {
+    "id": 401,
+    "name": "kricketot"
+  },
+  {
+    "id": 402,
+    "name": "kricketune"
+  },
+  {
+    "id": 403,
+    "name": "shinx"
+  },
+  {
+    "id": 404,
+    "name": "luxio"
+  },
+  {
+    "id": 405,
+    "name": "luxray"
+  },
+  {
+    "id": 406,
+    "name": "budew"
+  },
+  {
+    "id": 407,
+    "name": "roserade"
+  },
+  {
+    "id": 408,
+    "name": "cranidos"
+  },
+  {
+    "id": 409,
+    "name": "rampardos"
+  },
+  {
+    "id": 410,
+    "name": "shieldon"
   }
 ]
