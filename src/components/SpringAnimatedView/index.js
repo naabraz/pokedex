@@ -1,7 +1,7 @@
 // @flow
 
-import React, { Component } from 'react'
-import { Animated } from 'react-native'
+import React, { Component } from 'react';
+import { Animated } from 'react-native';
 
 type ISprinAnimated = {
   children: Object,
