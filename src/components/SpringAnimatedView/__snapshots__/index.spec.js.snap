@@ -6,7 +6,7 @@ exports[`SpringAnimatedView component test Should render component correctly 1`]
     Object {
       "transform": Array [
         Object {
-          "scale": 0.30000000000000004,
+          "scale": 0.3,
         },
       ],
     }

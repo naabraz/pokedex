@@ -33,7 +33,7 @@ exports[`Welcome component test Should render component correctly 1`] = `
         Object {
           "transform": Array [
             Object {
-              "scale": 0.30000000000000004,
+              "scale": 0.3,
             },
           ],
         }
@@ -53,7 +53,9 @@ exports[`Welcome component test Should render component correctly 1`] = `
       </Text>
       <View
         accessible={true}
+        clickable={true}
         isTVSelectable={true}
+        onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
