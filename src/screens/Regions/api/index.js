@@ -9,4 +9,4 @@ export const fetchRegions = () =>
   })
     .then(res => res.json())
     .then(data => data)
-    .catch((e) => new Error(e))
+    .catch(e => new Error(e));

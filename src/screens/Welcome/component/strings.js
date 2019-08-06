@@ -1,2 +1,2 @@
-export const WelcomeTitle = 'Pokédex'
-export const RegionsLabel = 'Regions'
+export const WelcomeTitle = 'Pokédex';
+export const RegionsLabel = 'Regions';
